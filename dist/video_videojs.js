@@ -23000,7 +23000,6 @@ var VideoPlayer = function () {
                 this.initResizer();
             }
         }
-        this.resizer.resize();
         this.setupVideo();
     }
     VideoPlayer.prototype.initResizer = function () {
@@ -23064,7 +23063,6 @@ var VideoPlayer = function () {
                             width: videoWidth,
                             height: videoHeight
                         });
-                        _this.resizer.resize();
                     }
                     /*set currentTime to play video */
                     if (_this.$currentTime !== null) {

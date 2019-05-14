@@ -7,8 +7,6 @@ webpackJsonp([5],{
  * Entry point for Embed Images
  */
 /// <reference path="./embed.d.ts" />
-// require('html5shiv');
-//import _ = require('underscore');
 var pym = __webpack_require__(3);
 var service_1 = __webpack_require__(5);
 var resizeEl_1 = __webpack_require__(4);

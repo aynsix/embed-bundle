@@ -3,9 +3,6 @@
  */
 
 /// <reference path="./embed.d.ts" />
-// require('html5shiv');
-
-//import _ = require('underscore');
 
 let pym = require('pym.js');
 import ConfigService from '../components/embed/config/service';

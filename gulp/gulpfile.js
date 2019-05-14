@@ -13,7 +13,6 @@ gulp.task('clean:tmp', function(done){
  */
 gulp.task('watchOverall', ['clean:tmp'], function () {
     gulp.start('watch');
-
 });
 gulp.task('deploy', function () {
     gulp.start('build');
